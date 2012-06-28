@@ -35,7 +35,7 @@ build() {
                -opensource \
                -confirm-license
 
-   make
+   make -j $JOBS
    make INSTALL_ROOT=$PKG install
   
    # Fix .la files
