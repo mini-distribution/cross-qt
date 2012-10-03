@@ -3401,82 +3401,82 @@ drwxr-xr-x	root/root	usr/lib/fonts/
 -rw-r--r--	root/root	usr/lib/fonts/Vera.ttf
 -rw-r--r--	root/root	usr/lib/libQtCore.la
 -rw-r--r--	root/root	usr/lib/libQtCore.prl
-lrwxrwxrwx	root/root	usr/lib/libQtCore.so
-lrwxrwxrwx	root/root	usr/lib/libQtCore.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtCore.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtCore.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtCore.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtCore.so.4.8 -> libQtCore.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtCore.so.4 -> libQtCore.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtCore.so -> libQtCore.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtDeclarative.la
 -rw-r--r--	root/root	usr/lib/libQtDeclarative.prl
-lrwxrwxrwx	root/root	usr/lib/libQtDeclarative.so
-lrwxrwxrwx	root/root	usr/lib/libQtDeclarative.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtDeclarative.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtDeclarative.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtDeclarative.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtDeclarative.so.4.8 -> libQtDeclarative.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtDeclarative.so.4 -> libQtDeclarative.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtDeclarative.so -> libQtDeclarative.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtGui.la
 -rw-r--r--	root/root	usr/lib/libQtGui.prl
-lrwxrwxrwx	root/root	usr/lib/libQtGui.so
-lrwxrwxrwx	root/root	usr/lib/libQtGui.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtGui.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtGui.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtGui.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtGui.so.4.8 -> libQtGui.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtGui.so.4 -> libQtGui.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtGui.so -> libQtGui.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtMultimedia.la
 -rw-r--r--	root/root	usr/lib/libQtMultimedia.prl
-lrwxrwxrwx	root/root	usr/lib/libQtMultimedia.so
-lrwxrwxrwx	root/root	usr/lib/libQtMultimedia.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtMultimedia.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtMultimedia.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtMultimedia.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtMultimedia.so.4.8 -> libQtMultimedia.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtMultimedia.so.4 -> libQtMultimedia.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtMultimedia.so -> libQtMultimedia.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtNetwork.la
 -rw-r--r--	root/root	usr/lib/libQtNetwork.prl
-lrwxrwxrwx	root/root	usr/lib/libQtNetwork.so
-lrwxrwxrwx	root/root	usr/lib/libQtNetwork.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtNetwork.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtNetwork.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtNetwork.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtNetwork.so.4.8 -> libQtNetwork.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtNetwork.so.4 -> libQtNetwork.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtNetwork.so -> libQtNetwork.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtScript.la
 -rw-r--r--	root/root	usr/lib/libQtScript.prl
-lrwxrwxrwx	root/root	usr/lib/libQtScript.so
-lrwxrwxrwx	root/root	usr/lib/libQtScript.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtScript.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtScript.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtScript.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtScript.so.4.8 -> libQtScript.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtScript.so.4 -> libQtScript.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtScript.so -> libQtScript.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtScriptTools.la
 -rw-r--r--	root/root	usr/lib/libQtScriptTools.prl
-lrwxrwxrwx	root/root	usr/lib/libQtScriptTools.so
-lrwxrwxrwx	root/root	usr/lib/libQtScriptTools.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtScriptTools.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtScriptTools.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtScriptTools.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtScriptTools.so.4.8 -> libQtScriptTools.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtScriptTools.so.4 -> libQtScriptTools.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtScriptTools.so -> libQtScriptTools.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtSql.la
 -rw-r--r--	root/root	usr/lib/libQtSql.prl
-lrwxrwxrwx	root/root	usr/lib/libQtSql.so
-lrwxrwxrwx	root/root	usr/lib/libQtSql.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtSql.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtSql.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtSql.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtSql.so.4.8 -> libQtSql.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtSql.so.4 -> libQtSql.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtSql.so -> libQtSql.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtSvg.la
 -rw-r--r--	root/root	usr/lib/libQtSvg.prl
-lrwxrwxrwx	root/root	usr/lib/libQtSvg.so
-lrwxrwxrwx	root/root	usr/lib/libQtSvg.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtSvg.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtSvg.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtSvg.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtSvg.so.4.8 -> libQtSvg.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtSvg.so.4 -> libQtSvg.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtSvg.so -> libQtSvg.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtTest.la
 -rw-r--r--	root/root	usr/lib/libQtTest.prl
-lrwxrwxrwx	root/root	usr/lib/libQtTest.so
-lrwxrwxrwx	root/root	usr/lib/libQtTest.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtTest.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtTest.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtTest.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtTest.so.4.8 -> libQtTest.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtTest.so.4 -> libQtTest.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtTest.so -> libQtTest.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtWebKit.la
 -rw-r--r--	root/root	usr/lib/libQtWebKit.prl
-lrwxrwxrwx	root/root	usr/lib/libQtWebKit.so
-lrwxrwxrwx	root/root	usr/lib/libQtWebKit.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtWebKit.so.4.9
--rwxr-xr-x	root/root	usr/lib/libQtWebKit.so.4.9.2
+-rwxr-xr-x	root/root	usr/lib/libQtWebKit.so.4.9.3
+lrwxrwxrwx	root/root	usr/lib/libQtWebKit.so.4.9 -> libQtWebKit.so.4.9.3
+lrwxrwxrwx	root/root	usr/lib/libQtWebKit.so.4 -> libQtWebKit.so.4.9.3
+lrwxrwxrwx	root/root	usr/lib/libQtWebKit.so -> libQtWebKit.so.4.9.3
 -rw-r--r--	root/root	usr/lib/libQtXml.la
 -rw-r--r--	root/root	usr/lib/libQtXmlPatterns.la
 -rw-r--r--	root/root	usr/lib/libQtXmlPatterns.prl
-lrwxrwxrwx	root/root	usr/lib/libQtXmlPatterns.so
-lrwxrwxrwx	root/root	usr/lib/libQtXmlPatterns.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtXmlPatterns.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtXmlPatterns.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtXmlPatterns.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtXmlPatterns.so.4.8 -> libQtXmlPatterns.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtXmlPatterns.so.4 -> libQtXmlPatterns.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtXmlPatterns.so -> libQtXmlPatterns.so.4.8.3
 -rw-r--r--	root/root	usr/lib/libQtXml.prl
-lrwxrwxrwx	root/root	usr/lib/libQtXml.so
-lrwxrwxrwx	root/root	usr/lib/libQtXml.so.4
-lrwxrwxrwx	root/root	usr/lib/libQtXml.so.4.8
--rwxr-xr-x	root/root	usr/lib/libQtXml.so.4.8.2
+-rwxr-xr-x	root/root	usr/lib/libQtXml.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtXml.so.4.8 -> libQtXml.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtXml.so.4 -> libQtXml.so.4.8.3
+lrwxrwxrwx	root/root	usr/lib/libQtXml.so -> libQtXml.so.4.8.3
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/QtCore.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/QtDeclarative.pc
@@ -3504,6 +3504,12 @@ drwxr-xr-x	root/root	usr/mkspecs/aix-xlc-64/
 -rw-r--r--	root/root	usr/mkspecs/aix-xlc-64/qplatformdefs.h
 -rw-r--r--	root/root	usr/mkspecs/aix-xlc/qmake.conf
 -rw-r--r--	root/root	usr/mkspecs/aix-xlc/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/blackberry-armv7le-qcc/
+-rw-r--r--	root/root	usr/mkspecs/blackberry-armv7le-qcc/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/blackberry-armv7le-qcc/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/blackberry-x86-qcc/
+-rw-r--r--	root/root	usr/mkspecs/blackberry-x86-qcc/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/blackberry-x86-qcc/qplatformdefs.h
 drwxr-xr-x	root/root	usr/mkspecs/common/
 drwxr-xr-x	root/root	usr/mkspecs/common/aix/
 -rw-r--r--	root/root	usr/mkspecs/common/aix/qplatformdefs.h
@@ -3513,6 +3519,7 @@ drwxr-xr-x	root/root	usr/mkspecs/common/c89/
 -rw-r--r--	root/root	usr/mkspecs/common/clang.conf
 -rw-r--r--	root/root	usr/mkspecs/common/g++-base.conf
 -rw-r--r--	root/root	usr/mkspecs/common/gcc-base.conf
+-rw-r--r--	root/root	usr/mkspecs/common/gcc-base-ios.conf
 -rw-r--r--	root/root	usr/mkspecs/common/gcc-base-macx.conf
 -rw-r--r--	root/root	usr/mkspecs/common/gcc-base-unix.conf
 -rw-r--r--	root/root	usr/mkspecs/common/g++.conf
@@ -3521,6 +3528,19 @@ drwxr-xr-x	root/root	usr/mkspecs/common/c89/
 -rw-r--r--	root/root	usr/mkspecs/common/g++-unix.conf
 drwxr-xr-x	root/root	usr/mkspecs/common/integrity/
 -rw-r--r--	root/root	usr/mkspecs/common/integrity/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/common/ios/
+-rw-r--r--	root/root	usr/mkspecs/common/ios/arch.conf
+-rw-r--r--	root/root	usr/mkspecs/common/ios/clang.conf
+-rw-r--r--	root/root	usr/mkspecs/common/ios.conf
+-rw-r--r--	root/root	usr/mkspecs/common/ios/g++.conf
+drwxr-xr-x	root/root	usr/mkspecs/common/ios/GLES/
+drwxr-xr-x	root/root	usr/mkspecs/common/ios/GLES2/
+-rw-r--r--	root/root	usr/mkspecs/common/ios/GLES2/gl2.h
+-rw-r--r--	root/root	usr/mkspecs/common/ios/GLES/gl.h
+-rw-r--r--	root/root	usr/mkspecs/common/ios/llvm.conf
+-rw-r--r--	root/root	usr/mkspecs/common/ios/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/common/ios/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/common/ios/versions.conf
 -rw-r--r--	root/root	usr/mkspecs/common/linux.conf
 -rw-r--r--	root/root	usr/mkspecs/common/llvm.conf
 drwxr-xr-x	root/root	usr/mkspecs/common/mac/
@@ -3576,7 +3596,7 @@ drwxr-xr-x	root/root	usr/mkspecs/cygwin-g++/
 drwxr-xr-x	root/root	usr/mkspecs/darwin-g++/
 -rw-r--r--	root/root	usr/mkspecs/darwin-g++/qmake.conf
 -rw-r--r--	root/root	usr/mkspecs/darwin-g++/qplatformdefs.h
-lrwxrwxrwx	root/root	usr/mkspecs/default
+lrwxrwxrwx	root/root	usr/mkspecs/default -> qws/linux-arm-gnueabi-g++
 drwxr-xr-x	root/root	usr/mkspecs/features/
 -rw-r--r--	root/root	usr/mkspecs/features/build_pass.prf
 -rw-r--r--	root/root	usr/mkspecs/features/dbusadaptors.prf
@@ -3587,6 +3607,7 @@ drwxr-xr-x	root/root	usr/mkspecs/features/
 -rw-r--r--	root/root	usr/mkspecs/features/default_post.prf
 -rw-r--r--	root/root	usr/mkspecs/features/default_pre.prf
 -rw-r--r--	root/root	usr/mkspecs/features/designer.prf
+-rw-r--r--	root/root	usr/mkspecs/features/device_config.prf
 -rw-r--r--	root/root	usr/mkspecs/features/dll.prf
 -rw-r--r--	root/root	usr/mkspecs/features/egl.prf
 -rw-r--r--	root/root	usr/mkspecs/features/enable_backup.prf
@@ -3835,22 +3856,13 @@ drwxr-xr-x	root/root	usr/mkspecs/openbsd-g++/
 -rw-r--r--	root/root	usr/mkspecs/openbsd-g++/qmake.conf
 -rw-r--r--	root/root	usr/mkspecs/openbsd-g++/qplatformdefs.h
 -rw-r--r--	root/root	usr/mkspecs/qconfig.pri
-drwxr-xr-x	root/root	usr/mkspecs/qpa/
-drwxr-xr-x	root/root	usr/mkspecs/qpa/common/
--rw-r--r--	root/root	usr/mkspecs/qpa/common/g++-base-macx-iphone.conf
--rw-r--r--	root/root	usr/mkspecs/qpa/common/g++-base-macx-iphonedevice.conf
-drwxr-xr-x	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++/
-drwxr-xr-x	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++-armv6/
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++-armv6/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++-armv6/qplatformdefs.h
-drwxr-xr-x	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++-armv7-nothumb/
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++-armv7-nothumb/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++-armv7-nothumb/qplatformdefs.h
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonedevice-g++/qplatformdefs.h
-drwxr-xr-x	root/root	usr/mkspecs/qpa/macx-iphonesimulator-g++/
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonesimulator-g++/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/qpa/macx-iphonesimulator-g++/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/qdevice.pri
+drwxr-xr-x	root/root	usr/mkspecs/qnx-armv7le-qcc/
+-rw-r--r--	root/root	usr/mkspecs/qnx-armv7le-qcc/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/qnx-armv7le-qcc/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/qnx-x86-qcc/
+-rw-r--r--	root/root	usr/mkspecs/qnx-x86-qcc/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/qnx-x86-qcc/qplatformdefs.h
 drwxr-xr-x	root/root	usr/mkspecs/qws/
 drwxr-xr-x	root/root	usr/mkspecs/qws/freebsd-generic-g++/
 -rw-r--r--	root/root	usr/mkspecs/qws/freebsd-generic-g++/qmake.conf
@@ -4009,12 +4021,6 @@ drwxr-xr-x	root/root	usr/mkspecs/unixware-g++/
 -rw-r--r--	root/root	usr/mkspecs/unixware-g++/qmake.conf
 -rw-r--r--	root/root	usr/mkspecs/unixware-g++/qplatformdefs.h
 drwxr-xr-x	root/root	usr/mkspecs/unsupported/
-drwxr-xr-x	root/root	usr/mkspecs/unsupported/blackberry-armv7le-qcc/
--rw-r--r--	root/root	usr/mkspecs/unsupported/blackberry-armv7le-qcc/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/unsupported/blackberry-armv7le-qcc/qplatformdefs.h
-drwxr-xr-x	root/root	usr/mkspecs/unsupported/blackberry-x86-qcc/
--rw-r--r--	root/root	usr/mkspecs/unsupported/blackberry-x86-qcc/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/unsupported/blackberry-x86-qcc/qplatformdefs.h
 drwxr-xr-x	root/root	usr/mkspecs/unsupported/linux-armcc/
 -rw-r--r--	root/root	usr/mkspecs/unsupported/linux-armcc/qmake.conf
 -rw-r--r--	root/root	usr/mkspecs/unsupported/linux-armcc/qplatformdefs.h
@@ -4032,15 +4038,45 @@ drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-clang/
 -rw-r--r--	root/root	usr/mkspecs/unsupported/macx-clang/Info.plist.lib
 -rw-r--r--	root/root	usr/mkspecs/unsupported/macx-clang/qmake.conf
 -rw-r--r--	root/root	usr/mkspecs/unsupported/macx-clang/qplatformdefs.h
-drwxr-xr-x	root/root	usr/mkspecs/unsupported/qnx-armv7le-qcc/
--rw-r--r--	root/root	usr/mkspecs/unsupported/qnx-armv7le-qcc/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/unsupported/qnx-armv7le-qcc/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iosdevice-clang/
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iosdevice-clang-legacy/
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-clang-legacy/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-clang-legacy/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-clang/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-clang/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iosdevice-g++/
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iosdevice-g++-legacy/
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-g++-legacy/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-g++-legacy/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-g++/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-g++/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iosdevice-llvm/
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iosdevice-llvm-legacy/
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-llvm-legacy/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-llvm-legacy/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-llvm/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iosdevice-llvm/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iossimulator-clang/
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iossimulator-clang-legacy/
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-clang-legacy/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-clang-legacy/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-clang/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-clang/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iossimulator-g++/
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iossimulator-g++-legacy/
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-g++-legacy/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-g++-legacy/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-g++/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-g++/qplatformdefs.h
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iossimulator-llvm/
+drwxr-xr-x	root/root	usr/mkspecs/unsupported/macx-iossimulator-llvm-legacy/
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-llvm-legacy/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-llvm-legacy/qplatformdefs.h
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-llvm/qmake.conf
+-rw-r--r--	root/root	usr/mkspecs/unsupported/macx-iossimulator-llvm/qplatformdefs.h
 drwxr-xr-x	root/root	usr/mkspecs/unsupported/qnx-X11-g++/
 -rw-r--r--	root/root	usr/mkspecs/unsupported/qnx-X11-g++/qmake.conf
 -rw-r--r--	root/root	usr/mkspecs/unsupported/qnx-X11-g++/qplatformdefs.h
-drwxr-xr-x	root/root	usr/mkspecs/unsupported/qnx-x86-qcc/
--rw-r--r--	root/root	usr/mkspecs/unsupported/qnx-x86-qcc/qmake.conf
--rw-r--r--	root/root	usr/mkspecs/unsupported/qnx-x86-qcc/qplatformdefs.h
 drwxr-xr-x	root/root	usr/mkspecs/unsupported/qws/
 drwxr-xr-x	root/root	usr/mkspecs/unsupported/qws/integrity-x86-cx86/
 -rw-r--r--	root/root	usr/mkspecs/unsupported/qws/integrity-x86-cx86/qmake.conf
