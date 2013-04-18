@@ -1,0 +1,12 @@
+diff -Nurp a/configure b/configure
+--- a/configure	2013-04-12 15:53:18.505588779 +0200
++++ b/configure	2013-04-12 15:54:29.368872808 +0200
+@@ -3614,7 +3614,7 @@ setBootstrapVariable()
+ }
+ 
+ # build qmake
+-if true; then ###[ '!' -f "$outpath/bin/qmake" ];
++if false; then ###[ '!' -f "$outpath/bin/qmake" ];
+     echo "Creating qmake..."
+ 
+     mkdir -p "$outpath/qmake" || exit
