@@ -12,7 +12,7 @@ build() {
 
    # Set up environment for qmake
    PATH=$SYSROOT/opt/qt5-native/bin:$PATH
-   export QMAKESPEC=$SYSROOT/opt/qt5-native/mkspecs/linux-arm-gnueabi-g++
+   export QMAKESPEC=$SYSROOT/opt/qt5-native/mkspecs/linux-g++
 
    qmake -r
    make -j $JOBS

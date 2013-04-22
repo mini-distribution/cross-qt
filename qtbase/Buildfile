@@ -12,15 +12,22 @@ depends=(zlib libpng libjpeg harfbuzz freetype glib libpcre sqlite ti-graphics-s
 build() {
    cd qtbase-opensource-src-$version
 
-   sed -i "s|arm-linux-gnueabi|$HOST|g" mkspecs/linux-arm-gnueabi-g++/qmake.conf
-   echo "QMAKE_INCDIR_OPENGL_ES2=$SYSROOT/usr/include/OGLES2" \
-        >> mkspecs/linux-arm-gnueabi-g++/qmake.conf
-   echo "QMAKE_INCDIR_EGL=$SYSROOT/usr/include/OGLES2" \
-        >> mkspecs/linux-arm-gnueabi-g++/qmake.conf
+   # Create qmake configuration
+   QMAKESPEC="mkspecs/linux-g++/qmake.conf"
+   echo "QMAKE_CC = $HOST-gcc" >> $QMAKESPEC
+   echo "QMAKE_CXX = $HOST-g++" >> $QMAKESPEC
+   echo "QMAKE_LINK = $HOST-g++" >> $QMAKESPEC
+   echo "QMAKE_LINK_SHLIB = $HOST-g++" >> $QMAKESPEC
+   echo "QMAKE_AR = $HOST-ar cqs" >> $QMAKESPEC
+   echo "QMAKE_OBJCOPY = $HOST-objcopy" >> $QMAKESPEC
+   echo "QMAKE_STRIP = $HOST-strip" >> $QMAKESPEC
+
+   echo "QMAKE_INCDIR_OPENGL_ES2=$SYSROOT/usr/include/OGLES2" >> $QMAKESPEC
+   echo "QMAKE_INCDIR_EGL=$SYSROOT/usr/include/OGLES2" >> $QMAKESPEC
 
    ./configure -prefix /opt/qt5 \
                -hostprefix /opt/qt5-native \
-               -xplatform linux-arm-gnueabi-g++ \
+               -xplatform linux-g++ \
                -release \
                -opensource \
                -confirm-license \
