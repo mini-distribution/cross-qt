@@ -1,5 +1,5 @@
-# Description: QT5 XML Patterns
-# URL: http://qt-project.org/doc/qt-5.0/qtcore/qtcore-index.html
+# Description: QT XML Patterns - Support for XPath, XQuery, XSLT and XML schema validation.
+# URL: http://qt-project.org/doc/qt-5.0/qtxmlpatterns/qtxmlpatterns-index.html
 
 name=qtxmlpatterns
 version=5.0.2
