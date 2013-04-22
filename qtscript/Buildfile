@@ -1,5 +1,5 @@
 # Description: QT Script - Classes for making Qt applications scriptable (deprecated)
-# URL: http://qt-project.org/doc/qt-5.0/qtsvg/qtsvg-index.html
+# URL: http://qt-project.org/doc/qt-5.0/qtscript/qtscript-index.html
 
 name=qtscript
 version=5.0.2
