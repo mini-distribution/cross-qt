@@ -1,0 +1,31 @@
+# Description: QT Graphical Effects - Graphical effects for use with Qt Quick 2
+# URL: http://qt-project.org/doc/qt-5.0/qtgraphicaleffects/qtgraphicaleffects-index.html
+
+name=qtgraphicaleffects
+version=5.0.2
+release=1
+source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz)
+depends=(qtbase qtdeclarative)
+
+build() {
+   cd $name-opensource-src-$version
+
+   # Set up environment for qmake
+   PATH=$SYSROOT/opt/qt5-native/bin:$PATH
+   export QMAKESPEC=$SYSROOT/opt/qt5-native/mkspecs/linux-arm-gnueabi-g++
+
+   qmake -r
+   make -j $JOBS
+
+   # Install in a temp folder to ease cleanup
+   make INSTALL_ROOT=$PKG/tmp install
+
+   # The files are installed with SYSROOT as prefix. Move to root of PKG
+   mv $PKG/tmp/$SYSROOT/* $PKG
+
+   # Clean SYSROOT prefix path
+   rm -rf $PKG/tmp
+
+   # Fix libtool files
+   fix_la_files $PKG
+}
