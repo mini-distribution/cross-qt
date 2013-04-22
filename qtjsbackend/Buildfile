@@ -1,5 +1,5 @@
-# Description: QT5 Base - Core non-graphical classes used by other modules.
-# URL: http://qt-project.org/doc/qt-5.0/qtcore/qtcore-index.html
+# Description: QT5 JS Backend - The V8 JS backend used by QT Declarative
+# URL: http://qt.gitorious.org/qt/qtjsbackend
 
 name=qtjsbackend
 version=5.0.2

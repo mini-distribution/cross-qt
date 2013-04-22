@@ -1,5 +1,5 @@
-# Description: QT5 Base - Core non-graphical classes used by other modules.
-# URL: http://qt-project.org/doc/qt-5.0/qtcore/qtcore-index.html
+# Description: QT5 Declarative - Provided for Qt 4 compatibility. See QT Quick.
+# URL: http://qt-project.org/doc/qt-4.8/qtquick.html
 
 name=qtdeclarative
 version=5.0.2
