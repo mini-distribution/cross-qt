@@ -5,7 +5,7 @@ name=qtbase
 version=5.0.2
 release=1
 source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz)
-depends=(zlib libpng libjpeg harfbuzz freetype glib libpcre sqlite ti-graphics-sdk icu
+depends=(zlib libpng libjpeg harfbuzz freetype glib libpcre sqlite icu
          gst-plugins-good-0.10 gst-ffmpeg-0.10)
 
 build() {
@@ -13,16 +13,13 @@ build() {
 
    # Create qmake configuration
    QMAKESPEC="mkspecs/linux-g++/qmake.conf"
-   echo "QMAKE_CC = $HOST-gcc" >> $QMAKESPEC
-   echo "QMAKE_CXX = $HOST-g++" >> $QMAKESPEC
-   echo "QMAKE_LINK = $HOST-g++" >> $QMAKESPEC
-   echo "QMAKE_LINK_SHLIB = $HOST-g++" >> $QMAKESPEC
-   echo "QMAKE_AR = $HOST-ar cqs" >> $QMAKESPEC
+   echo "QMAKE_CC = $HOST-gcc"          >> $QMAKESPEC
+   echo "QMAKE_CXX = $HOST-g++"         >> $QMAKESPEC
+   echo "QMAKE_LINK = $HOST-g++"        >> $QMAKESPEC
+   echo "QMAKE_LINK_SHLIB = $HOST-g++"  >> $QMAKESPEC
+   echo "QMAKE_AR = $HOST-ar cqs"       >> $QMAKESPEC
    echo "QMAKE_OBJCOPY = $HOST-objcopy" >> $QMAKESPEC
-   echo "QMAKE_STRIP = $HOST-strip" >> $QMAKESPEC
-
-   echo "QMAKE_INCDIR_OPENGL_ES2=$SYSROOT/usr/include/OGLES2" >> $QMAKESPEC
-   echo "QMAKE_INCDIR_EGL=$SYSROOT/usr/include/OGLES2" >> $QMAKESPEC
+   echo "QMAKE_STRIP = $HOST-strip"     >> $QMAKESPEC
 
    ./configure -prefix /opt/qt5 \
                -hostprefix /opt/qt5-native \
@@ -39,8 +36,10 @@ build() {
                -nomake examples \
                -nomake demos \
                -verbose \
-               -opengl es2 \
-               -eglfs
+               -no-directfb \
+               -no-opengl \
+               -no-eglfs \
+               -linuxfb
 
    make -j $JOBS
    make INSTALL_ROOT=$PKG install
