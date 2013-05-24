@@ -1,0 +1,31 @@
+# Description: QT3D
+# URL: http://qt.gitorious.org/qt-labs/qt3d
+
+name=qt3d
+version=git0158ce783a
+release=1
+source=(http://buildgear.org/mirror/$name-$version.tar.xz)
+depends=(qtbase qtdeclarative)
+
+build() {
+   cd $name
+
+   # Set up environment for qmake
+   PATH=$SYSROOT/opt/qt5-native/bin:$PATH
+   export QMAKESPEC=$SYSROOT/opt/qt5-native/mkspecs/linux-g++
+
+   qmake -r
+   make -j $JOBS
+
+   # Install in a temp folder to ease cleanup
+   make INSTALL_ROOT=$PKG/tmp install
+
+   # The files are installed with SYSROOT as prefix. Move to root of PKG
+   mv $PKG/tmp/$SYSROOT/* $PKG
+
+   # Clean SYSROOT prefix path
+   rm -rf $PKG/tmp
+
+   # Fix libtool files
+   fix_la_files $PKG
+}
