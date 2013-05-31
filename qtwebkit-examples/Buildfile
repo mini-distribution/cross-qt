@@ -1,20 +1,20 @@
-# Description: QT5 Base - Core non-graphical classes used by other modules.
-# URL: http://qt-project.org/doc/qt-5.0/qtcore/qtcore-index.html
+# Description: QT5 webkit examples
+# URL: http://qt-project.org/doc/qt-5.0/qtwebkitexamples/qtwebkitexamples-index.html
 
-name=qtwebkitdemo
-version=5.0.2
+name=qtwebkit-examples
+version=5.1.0
 release=1
-source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/qtwebkit-examples-and-demos-opensource-src-$version.tar.xz)
+source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz)
 depends=(qtwebkit qtxmlpatterns qtquick1)
 
 build() {
-   cd qtwebkit-examples-and-demos-opensource-src-$version
+   cd $name-opensource-src-$version
 
    # Set up environment for qmake
    PATH=$SYSROOT/opt/qt5-native/bin:$PATH
-   export QMAKESPEC=$SYSROOT/opt/qt5-native/mkspecs/linux-g++
 
    qmake -r
+   cd examples
    make -j $JOBS
 
    # Install in a temp folder to ease cleanup
