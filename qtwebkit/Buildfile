@@ -4,11 +4,14 @@
 name=qtwebkit
 version=5.1.0
 release=1
-source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz)
+source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz
+        fix-compilation.patch)
 depends=(qtbase qtjsbackend qtdeclarative)
 
 build() {
    cd $name-opensource-src-$version
+
+   patch -p2 -i $SRC/fix-compilation.patch
 
    # Set up environment for qmake
    PATH=$SYSROOT/opt/qt5-native/bin:$PATH
