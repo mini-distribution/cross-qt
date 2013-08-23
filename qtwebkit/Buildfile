@@ -31,3 +31,8 @@ build() {
    # Fix libtool files
    fix_la_files $PKG
 }
+
+check()
+{
+   check_tool ruby
+}
