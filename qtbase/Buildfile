@@ -46,3 +46,5 @@ build() {
    # Fix libtool files
    fix_la_files $PKG
 }
+
+nostrip=(opt/qt5-native libQt5Bootstrap.a)

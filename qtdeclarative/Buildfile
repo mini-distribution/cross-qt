@@ -34,3 +34,5 @@ build() {
    # Fix libtool files
    fix_la_files $PKG
 }
+
+nostrip=(libQt5QmlDevTools.a)
