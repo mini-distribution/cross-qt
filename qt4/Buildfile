@@ -2,9 +2,9 @@
 # URL: http://qt-project.org
 
 name=qt4
-version=4.8.4
+version=4.8.6
 release=1
-source=(http://releases.qt-project.org/$name/source/qt-everywhere-opensource-src-$version.tar.gz)
+source=(https://download.qt.io/archive/qt/4.8/4.8.6/qt-everywhere-opensource-src-$version.tar.gz)
 depends=(zlib libjpeg libpng)
 
 build() {
