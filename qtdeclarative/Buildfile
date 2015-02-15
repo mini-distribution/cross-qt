@@ -10,6 +10,8 @@ source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$versi
 
 depends=(qtbase)
 
+# WARNING: This module does not build with -no-opengl (Results in "quick-private" error)
+
 build() {
    cd $name-opensource-src-$version
 
