@@ -1,0 +1,28 @@
+# Description: CinematicExperience
+# URL: http://quitcoding.com/?page=work#cinex
+
+name=CinematicExperience
+version=1.0
+release=1
+source=(http://quitcoding.com/download/Qt5_CinematicExperience_rpi_$version.tgz
+        fix_qt5_3_compatibility.patch)
+depends=(qtdeclarative qtgraphicaleffects)
+
+build() {
+   cd Qt5_CinematicExperience_rpi_$version
+
+   patch -p1 -i $SRC/fix_qt5_3_compatibility.patch
+
+   # Set up environment for qmake
+   PATH=$SYSROOT/opt/qt5-native/bin:$PATH
+
+   qmake -r
+   make -j $JOBS
+
+   INSTALL_PATH=$PKG/opt/qt5/CinematicExperience
+
+   install -d $INSTALL_PATH
+   install -m 0755 Qt5_CinematicExperience $INSTALL_PATH
+   cp -r content $INSTALL_PATH
+   install -m 0644 Qt5_CinematicExperience.qml $INSTALL_PATH
+}
