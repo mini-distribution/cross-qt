@@ -2,13 +2,13 @@
 # URL: http://qt-project.org/doc/qt-4.8/qtquick.html
 
 name=qtdeclarative
-version=5.4.1
+version=5.4.0
 release=1
 source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz
         qmltestrunner-fix-link.patch
         qmltest-fix-link.patch)
 
-depends=(qtbase)
+depends=(qtbase qtxmlpatterns)
 
 # WARNING: This module does not build with -no-opengl (Results in "quick-private" error)
 
