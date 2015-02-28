@@ -24,10 +24,12 @@ build() {
                -opensource \
                -confirm-license \
                -optimized-qmake \
+               -no-use-gold-linker \
                -no-xcb \
                -no-pch \
                -icu \
                -system-sqlite \
+               -openssl-linked \
                -nomake tests \
                -nomake examples \
                -verbose \
