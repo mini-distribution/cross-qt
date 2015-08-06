@@ -2,7 +2,7 @@
 # URL: http://doc.qt.io/qt-5/qtsensors-index.html
 
 name=qtsensors
-version=5.4.1
+version=5.5.0
 release=1
 source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz)
 depends=(qtbase qtdeclarative)
