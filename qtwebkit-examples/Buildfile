@@ -2,7 +2,7 @@
 # URL: http://qt-project.org/doc/qt-5.0/qtwebkitexamples/qtwebkitexamples-index.html
 
 name=qtwebkit-examples
-version=5.5.0
+version=5.5.1
 release=1
 source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz)
 depends=(qtwebkit qtxmlpatterns qtquick1)
