@@ -4,9 +4,7 @@
 name=qtdeclarative
 version=5.6.0
 release=1
-source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz
-        qmltestrunner-fix-link.patch
-        qmltest-fix-link.patch)
+source=(http://download.qt-project.org/official_releases/qt/${version%.*}/$version/submodules/$name-opensource-src-$version.tar.xz)
 
 depends=(qtbase qtxmlpatterns)
 
@@ -14,9 +12,6 @@ depends=(qtbase qtxmlpatterns)
 
 build() {
    cd $name-opensource-src-$version
-
-   patch -p2 -i $SRC/qmltestrunner-fix-link.patch
-   patch -p2 -i $SRC/qmltest-fix-link.patch
 
    # Set up environment for qmake
    PATH=$SYSROOT/opt/qt5-native/bin:$PATH
